@@ -1,8 +1,11 @@
 import streamlit as st
 from PIL import Image
+from streamlit_timeline import timeline
 
+st.set_page_config(page_title="Taha Binhuraib's portfolio", page_icon="👨‍🔬")
 with open("style.css") as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
+
 
 #####################
 # Header
@@ -100,6 +103,12 @@ def txt4(a, b, c):
 
 
 #####################
+st.subheader("Career Timeline")
+with st.spinner(text="Building line"):
+    with open("./data/timeline.json", "r") as f:
+        data = f.read()
+        timeline(data, height=500)
+
 st.markdown(
     """
 ## Education
