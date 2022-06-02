@@ -11,7 +11,7 @@ with open("style.css") as f:
 # Header
 st.write(
     """
-# Taha BinHuraib, BSc.
+# Taha BinHuraib.
 ##### *Resume* 
 """
 )
@@ -20,7 +20,7 @@ st.write(
 st.markdown("## Summary", unsafe_allow_html=True)
 st.info(
     """
-Data Scientist with 3 years of experience in applying state of the art technologies and building
+Data Scientist with 3 years of experience in applying state-of-the-art technologies and building
 data-intensive applications. A strong background in theoretical Machine/Statistical Learning
 algorithms. Proficient in scientific Python and Julia programming. Adept at predictive modelling,
 natural language processing and computer vision.
@@ -116,14 +116,14 @@ st.markdown(
 )
 
 txt(
-    "**Bachelor of Science** (Industrial Engineering), *Bahcesehir University*, Turkey",
+    "**Industrial Engineering (BSc)**, *Bahcesehir University*, Istanbul, Turkey",
     "2017-2021",
 )
 st.markdown(
     """
 - GPA: `3.81`
-- Research thesis entitled [`Price Forecasting and System Direction Determination in the Balancing Power Market`](https://github.com/TahaBinhuraib/energy_datascience).
-- Worked as a summer researcher on vaious deep learning tasks.
+- Research thesis titled [`Price Forecasting and System Direction Determination in the Balancing Power Market`](https://github.com/TahaBinhuraib/energy_datascience).
+- Worked as a summer researcher on various deep learning tasks.
 - Graduated Summa Cum Laude.
 """
 )
@@ -139,19 +139,20 @@ txt("**Junior Data Scientist**, Gama Energy, Istanbul, Turkey", "2021-2022")
 st.markdown(
     """
 - Developed a fully automated pipeline for different regression and classification tasks.
-- Provided valuable statistical insights on how different variables affect the energy market.
+- Provided data-driven statistical analyses on how different factors affect different energy markets.
 """
 )
 
 txt(
-    "**Machine Learning Engineer**, Boston, USA",
+    "**Machine Learning Engineer**, Novus Technologies Inc, Boston, USA",
     "2021-Present",
 )
 st.markdown(
     """
 - Implemented state-of-the-art natural language processing architectures.
 - Developed various deep learning REST APIs.
-- Developed a CI/CD pipeline.
+- Developed a CI/CD pipelines and presented the architecture to several potential investors.
+- Implemented relevant new technologies for the company, using the most recent research papers from different institutions such as Facebook, OpenAI, MIT labs.
 """
 )
 
@@ -159,31 +160,27 @@ st.markdown(
 txt("**Student Researcher**, Neuromatch Academy", "2021-2021")
 st.markdown(
     """
-- High-quality training program in theoretical modelling and computational neuroscience, including Machine Learning, Dynamical Systems and Stochastic Processes.
-- Involved in a group-project in order to practice the skills gained, where we analyzed fMRI data of subjects during a gambling experiment.
+- Conducted research in this high-quality training program in theoretical modelling and computational neuroscience, including Machine Learning, Dynamical Systems and Stochastic Processes.
+- Worked as a developer in a neuroscience project to demonstrate the skills learned, in which we analyzed the fMRI data of subjects during a gambling experiment.
 """
 )
 
 txt(
-    "**Technical writer**, [Towards Data Science](https://towardsdatascience.com)",
+    "**Technical Writer**, [Towards Data Science](https://towardsdatascience.com)",
     "2020-Present",
 )
 st.markdown(
     """
 - [The Essence of RNNs](https://towardsdatascience.com/the-essence-of-rnns-44dfb4107a47)
-   - In-depth explanation of
-        Recurrent neural nets and
-        building an intuition behind
-        the building blocks of more
-        complex architectures.
+   - Explained how recurrent neural networks work, aimed at making the reader build an intuition about the building blocks of more complex architectures.
 
 - [NLP with CNNs](https://towardsdatascience.com/nlp-with-cnns-a6aa743bdc1e)
     - A step by step explanation
         of convolutional neural
-        nets, with a Keras
+        networks with a Keras
         implementation.
 - [An Introduction to Linear Algebra for Deep Learning](https://towardsdatascience.com/an-introduction-to-linear-algebra-for-deep-learning-c1b72de78543)
-    - Explanation of the Matrix calculus and algebra behind deep learning.
+    - Explained how linear algebra and matrix calculus work for deep learning.
 """
 )
 st.markdown(
@@ -195,22 +192,22 @@ st.markdown(
     """
 - [Studying the Neurological Differences between Winning and Losing a Gamble](https://github.com/TahaBinhuraib/NWA_project)
     - A study in which fMRI data was used to study the neurological effects of gambling.
-    - Statistical mappings of the brain were generated using generalized linear models.
-    - Logistic regression and deep learning encoding models were developed.
-    - Dimensionality reduction; PCAs and t-SNE, were used to study dimensionality of
+    - Generated Statistical mappings of the brain were generated using generalized linear models.
+    - Developed logistic regression and deep learning encoding models.
+    - Used dimensionality reduction techniques(PCAs and t-SNE), were used to study dimensionality of
         data as well as Principal Component Classification.
 - [PyTorch-GANs](https://github.com/TahaBinhuraib/PyTorch-GANs)
-    - PyTorch implementation of [Generative Adversarial Networks
-        ](https://arxiv.org/abs/1406.2661) by Ian Goodfellow.
+    - Implemented the original [Generative Adversarial Networks
+        ](https://arxiv.org/abs/1406.2661) paper using PyTorch.
 - [C/C++ Data Structures and Algorithms](https://github.com/TahaBinhuraib/Cpp_DS)
-    - Algoritms and Data Structures simplified.
+    - Organized a repository to simplify common data structures and algorithms.
     - [Notion website](https://normalized.notion.site/Data-Structures-and-Algorithms-3fd28d4c72a3464dac09e50944160cad)
 - [BART-Morphology](https://github.com/TahaBinhuraib/BART_morphological)
     - Trained a BART language model from scratch for an inflection task.
-    - Original [BART paper](https://arxiv.org/abs/1910.13461)
+    - See the original BART paperat at [arxiv](https://arxiv.org/abs/1910.13461) for reference.
 - [Proposing an Novel Artificial Neural Network Methodology for forecasting Risk of COVID-19 Pandemic](https://link.springer.com/chapter/10.1007/978-3-030-66501-2_22)
-    - Statistical and machine learning methods were compared to forecast the risk of Covid-19.
-    - Publication: Progress in Intelligent Decision Science, 2020.
+    - Compared statistical and machine learning methods to forecast the risk of Covid-19.
+    - Publication: [Progress in Intelligent Decision Science, 2020](https://link.springer.com/chapter/10.1007/978-3-030-66501-2_22).
 - [Generalization in Morphological Inflection Generation](https://github.com/TahaBinhuraib/lexical)
     - An ongoing project for which I'm working with a PhD student at MIT on inflection tasks.
     - Incorporating copying mechanism to Sequence-to-Sequence learning.
