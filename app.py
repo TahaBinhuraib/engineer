@@ -194,8 +194,7 @@ st.markdown(
     - A study in which fMRI data was used to study the neurological effects of gambling.
     - Generated Statistical mappings of the brain using generalized linear models.
     - Developed logistic regression and deep learning encoding models.
-    - Used dimensionality reduction techniques(PCAs and t-SNE), were used to study dimensionality of
-        data as well as Principal Component Classification.
+    - Used dimensionality reduction techniques(PCAs and t-SNE) to analyze the features.
 - [PyTorch-GANs](https://github.com/TahaBinhuraib/PyTorch-GANs)
     - Implemented the original [Generative Adversarial Networks
         ](https://arxiv.org/abs/1406.2661) paper using PyTorch.
