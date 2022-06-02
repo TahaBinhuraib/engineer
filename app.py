@@ -11,7 +11,7 @@ with open("style.css") as f:
 # Header
 st.write(
     """
-# Taha BinHuraib.
+# Taha BinHuraib
 ##### *Resume* 
 """
 )
