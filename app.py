@@ -116,7 +116,7 @@ st.markdown(
 )
 
 txt(
-    "**Bachelor of Science** (Industrial Engineering), *Bahcesehir university*, Turkey",
+    "**Bachelor of Science** (Industrial Engineering), *Bahcesehir University*, Turkey",
     "2017-2021",
 )
 st.markdown(
@@ -188,7 +188,7 @@ st.markdown(
 )
 st.markdown(
     """
-## Projects
+## Projects and Publications
 """
 )
 st.markdown(
@@ -208,6 +208,12 @@ st.markdown(
 - [BART-Morphology](https://github.com/TahaBinhuraib/BART_morphological)
     - Trained a BART language model from scratch for an inflection task.
     - Original [BART paper](https://arxiv.org/abs/1910.13461)
+- [Proposing an Novel Artificial Neural Network Methodology for forecasting Risk of COVID-19 Pandemic](https://link.springer.com/chapter/10.1007/978-3-030-66501-2_22)
+    - Statistical and machine learning methods were compared to forecast the risk of Covid-19.
+    - Publication: Progress in Intelligent Decision Science, 2020.
+- [Generalization in Morphological Inflection Generation](https://github.com/TahaBinhuraib/lexical)
+    - An ongoing project for which I'm working with a PhD student at MIT on inflection tasks.
+    - Incorporating copying mechanism to Sequence-to-Sequence learning.
     """
 )
 
