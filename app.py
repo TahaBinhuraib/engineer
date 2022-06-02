@@ -151,7 +151,7 @@ st.markdown(
     """
 - Implemented state-of-the-art natural language processing architectures.
 - Developed various deep learning REST APIs.
-- Developed a CI/CD pipelines and presented the architecture to several potential investors.
+- Developed a CI/CD pipeline and presented the architecture to several potential investors.
 - Implemented relevant new technologies for the company, using the most recent research papers from different institutions such as Facebook, OpenAI, MIT labs.
 """
 )
@@ -192,7 +192,7 @@ st.markdown(
     """
 - [Studying the Neurological Differences between Winning and Losing a Gamble](https://github.com/TahaBinhuraib/NWA_project)
     - A study in which fMRI data was used to study the neurological effects of gambling.
-    - Generated Statistical mappings of the brain were generated using generalized linear models.
+    - Generated Statistical mappings of the brain using generalized linear models.
     - Developed logistic regression and deep learning encoding models.
     - Used dimensionality reduction techniques(PCAs and t-SNE), were used to study dimensionality of
         data as well as Principal Component Classification.
