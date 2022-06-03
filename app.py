@@ -203,7 +203,7 @@ st.markdown(
     - [Notion website](https://normalized.notion.site/Data-Structures-and-Algorithms-3fd28d4c72a3464dac09e50944160cad)
 - [BART-Morphology](https://github.com/TahaBinhuraib/BART_morphological)
     - Trained a BART language model from scratch for an inflection task.
-    - See the original BART paperat at [arxiv](https://arxiv.org/abs/1910.13461) for reference.
+    - See the original BART paper at [arxiv](https://arxiv.org/abs/1910.13461) for reference.
 - [Proposing an Novel Artificial Neural Network Methodology for forecasting Risk of COVID-19 Pandemic](https://link.springer.com/chapter/10.1007/978-3-030-66501-2_22)
     - Compared statistical and machine learning methods to forecast the risk of Covid-19.
     - Publication: [Progress in Intelligent Decision Science, 2020](https://link.springer.com/chapter/10.1007/978-3-030-66501-2_22).
